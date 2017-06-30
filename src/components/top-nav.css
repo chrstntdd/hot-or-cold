@@ -1,0 +1,29 @@
+nav {
+	position: relative;
+	height: 10%;
+	padding: 1em;
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	border-radius: 3px;
+	color: white;
+	transition-duration: 0.5s;
+	padding: 10px;
+	background-color: transparent;
+	color: #0b4f6c;
+	text-transform: uppercase;
+	border: 1px solid #0b4f6c;
+	transition-property: background, color;
+}
+
+nav ul li a:hover {
+	color: white;
+	background-color: #0b4f6c;
+}

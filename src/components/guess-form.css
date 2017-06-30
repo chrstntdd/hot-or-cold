@@ -1,0 +1,26 @@
+#userGuess {
+	text-align: center;
+	width: 75%;
+	padding: 10px;
+	border-radius: 2px;
+	border: none;
+	margin-bottom: 1.2rem;
+	font-size: 16px;
+	border-radius: 4px;
+}
+#guessButton {
+	padding: 10px;
+	color: #0b4f6c;
+	transition-property: background, color;
+	text-transform: uppercase;
+	font-size: 16px;
+	background-color: transparent;
+	border: 1px solid #0b4f6c;
+	transition-duration: 0.5s;
+	border-radius: 4px;
+	width: 75%;
+}
+#guessButton:hover {
+	background-color: #0b4f6c;
+	color: white;
+}

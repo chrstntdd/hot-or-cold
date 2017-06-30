@@ -1,0 +1,18 @@
+.overlay {
+	width: 125%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99999999;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.content {
+	background-color: #eee;
+	padding: 10px;
+}
+
+.overlay .content a {
+	text-decoration: none;
+	color: #0b4f6c;
+}

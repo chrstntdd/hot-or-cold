@@ -1,0 +1,21 @@
+ul.guessBox {
+	min-height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-left: 0;
+	margin: 0 auto;
+	text-overflow: scroll;
+	width: 100%;
+	background-color: #ff6663;
+}
+
+.guessBox li {
+	list-style: none;
+	font-size: 20px;
+	color: white;
+	background-color: #68b1c4;
+	border-radius: 2px;
+	padding: 10px;
+	margin: 2px;
+}
